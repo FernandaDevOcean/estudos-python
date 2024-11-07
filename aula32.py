@@ -42,6 +42,10 @@ menos escreva "Seu nome é curto"; se tiver 5 e 6 letras, escreva
 "Seu nome é normal"; maior que 6 letras escreva "Seu nome é muito grande".
 """
 
+
+# Apesar de não ter sido pedido, eu quis retornar ao usuário uma mensagem caso ele não digitasse nada
+# ou se digitasse um número, ao invés de nome (str).
+
 nome_str = input(str('Qual é o seu nome? '))
 n_letras = (len(nome_str))
 
